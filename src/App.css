@@ -2,37 +2,69 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: linear-gradient(to right, #5d60e4, #c39bf8);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form {
+  padding: 15px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+table {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-link {
-  color: #61dafb;
+tbody {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+thead {
+  border: 1px solid;
+}
+
+.headers{
+  background-color: rgb(145, 89, 250);
+}
+
+tr {
+  width: 100%;
+}
+
+tr:nth-child(even){
+  background-color: white;
+}
+
+td.id {
+  width: 15%;
+}
+
+td.age {
+  width: 15%;
+}
+
+th,
+td {
+  padding: 15px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+
+.add_person {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete_person {
+  cursor: pointer;
+  font-size: 16px;
 }
